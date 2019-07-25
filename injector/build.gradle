@@ -15,3 +15,12 @@ dependencies {
     compile files("${System.properties['java.home']}/../lib/tools.jar")
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+jar {
+    manifest {
+        attributes(
+                'Manifest-Version': '1.0',
+                'Main-Class': 'self.ed.Injector',
+        )
+    }
+}

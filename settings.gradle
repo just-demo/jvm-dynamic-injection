@@ -1,4 +1,5 @@
 rootProject.name = 'jvm-dynamic-injection'
 include 'injection'
 include 'injector'
+include 'applet'
 

@@ -11,7 +11,7 @@ import java.util.Date;
 
 import static javax.swing.BoxLayout.Y_AXIS;
 
-public class Injection {
+public class InjectionSwing {
     public static void agentmain(String agentArgs, Instrumentation inst) {
         Console console = new Console();
         // This produces too many events
